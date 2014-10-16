@@ -10,8 +10,6 @@ Install bootstrap-sass and Compass gems with:
     gem install compass
     gem install bootstrap-sass
 
-## Getting started ##
-
 Get angular and angular-ui-route with bower:
 
     bower install
@@ -23,3 +21,14 @@ Get gulp plugins via npm
 Start gulp task to watch changes in sass/js directories
 
     gulp watch
+    
+## Getting started ##
+
+An angular app with the name 'appName' is already created and has a "mainCtrl" as defalt. 
+Fire up index.html and you should see the welcome message.
+
+#### Where do I go from here?
+
+You probably want to change 'appName' to your actual apps name and then hack away!
+
+Good luck
