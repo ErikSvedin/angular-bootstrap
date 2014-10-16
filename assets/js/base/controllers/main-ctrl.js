@@ -3,7 +3,7 @@
         controller('MainCtrl', ['$scope', Ctrl]);
 
 
-    function Ctrl($scope, $http) {
+    function Ctrl($scope) {
 
         $scope.startMsg = 'Happy coding! // Erik';
     }
