@@ -1,7 +1,7 @@
 angular-bootstrap
 =================
 
-Boilerplate repo for angular app with simple bower.json and package.json files
+Boilerplate repo for angular app with simple gulpfile to build js and sass, bootstrap frameowork included
 
 ### Dependencies ###
 
