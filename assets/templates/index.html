@@ -9,7 +9,20 @@
 
 <body ui-view>
 
-    <ng-include src="'base.html'"></ng-include>
+    <nav>
+        <!-- Show nav here -->
+    </nav>
+
+    <div ng-controller="MainCtrl">
+
+        <div ui-view="FullContentView">
+            <!-- Show content here -->
+        </div>
+    </div>
+
+    <footer>
+        <!-- Show footer here -->
+    </footer>
 
     <script type="text/javascript" src="../dist/app.js"></script>
 </body>
